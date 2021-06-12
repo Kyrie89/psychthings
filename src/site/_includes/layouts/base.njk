@@ -1,6 +1,6 @@
 ---
-title: Jamstack | JavaScript, APIs, and Markup
-description: What is the Jamstack? Why use the Jamstack? How do I get started? Learn what the Jamstack is all about and why it's the best approach for building faster, more secure websites.
+title: PsychCreatives | Connecting Therapists & Resources
+description: Free, quality resources for mental health providers collected from across the internet. Organized simply to help you help others.
 ogimage: "/img/og/default-og-image.png"
 ---
 
@@ -10,7 +10,7 @@ ogimage: "/img/og/default-og-image.png"
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <title>{{ title }} | Jamstack</title>
+    <title>{{ title }} | PsychCreatives</title>
     <meta name="description" content="{{ description }}">
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
@@ -18,19 +18,21 @@ ogimage: "/img/og/default-og-image.png"
 {%- for url in preconnect %}
     <link rel="preconnect" href="{{ url }}">
 {%- endfor %}
-    <meta property="og:title" content="{{ title }} | Jamstack">
-    <meta property="og:site_name" content="Jamstack.org">
-    <meta property="og:url" content="https://jamstack.org{{ page.url }}">
+    <meta property="og:title" content="{{ title }} | PsychCreatives">
+    <meta property="og:site_name" content="PsychCreatives">
+    <meta property="og:url" content="https://psychcreatives.com{{ page.url }}">
     <meta property="og:description" content="{{ description }}">
     <meta property="og:type" content="website">
     <meta property="og:image" content="{{ netlify.deployUrl }}{{ ogimage }}">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://jamstack.org{{ page.url }}">
-    <meta property="twitter:title" content="{{ title }} | Jamstack">
+    <meta property="twitter:url" content="https://psychcreatives.com{{ page.url }}">
+    <meta property="twitter:title" content="{{ title }} | PsychCreatives">
     <meta property="twitter:description" content="{{ description }}">
     <meta property="twitter:image" content="{{ netlify.deployUrl }}{{ ogimage }}">
+    <!--
     <meta name="google-site-verification" content="i5IheizQ6X_M4jNqb_b7vbJrT34i_gvEg8Gxkq9IY_w" />
     <meta name="google-site-verification" content="WDIQ_1X8K7XIpPJ5G1Z8KnOqdSeYetPQB4EgoTLfIsc" />
+    -->
     <script type="module">document.documentElement.classList.add("js");</script>
   </head>
   <body class="bg-blue-900 text-blue-100 leading-relaxed antialiased">
